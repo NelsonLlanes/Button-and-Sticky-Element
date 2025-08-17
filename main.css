@@ -7,6 +7,9 @@
 }
 
 header {
+    position: fixed;
+    width: 100%;
+    top: 0;
     background-color: black;
 }
 
@@ -75,11 +78,12 @@ header nav ul li:last-child {
     font-size: 0;
 }
 .cuerpo div{
+
     display: inline-block;
     text-align: center;
-    height: 100%;
+    height: 300%;
     font-size: 16px;
-    padding-top: 20px;
+    padding-top: 70px;
 }
 
 .contenido {
@@ -89,6 +93,8 @@ header nav ul li:last-child {
 }
 
 .nav2 {
+    position: sticky;
+    top: 70px;
     background-color: rgb(25, 39, 39);
     width: 20%;
     color: white;}
@@ -111,6 +117,9 @@ header nav ul li:last-child {
 
 
 footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
     color: white;
     text-align: center;
     background-color: black;
